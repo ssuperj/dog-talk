@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">개톡</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fa-solid fa-bone fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link"> <i class="fas fa-info-circle slide"></i><span class="slide">애견인들 다 들어와~</span> </a>
+
+    <main class="friends-screen">
+      <div class="user-component user-component-ani">
+        <div class="user-component__column">
+          <img src="images/dog1.jpg" class="user-component__avatar user-component__avatar--xl" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">별똥이</h4>
+            <h6 class="user-component__subtitle">배고파</h6>
+          </div>
+        </div>
+        <div class="user-component__column"><i class="fa-solid fa-paw fa-3x"></i></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>애견 쇼핑몰</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component user-component-ani user-component2">
+          <div class="user-component__column">
+            <img src="images/dogking.png" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">강아지 대통령</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="fa-solid fa-dog fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <i class="fa-regular fa-face-smile-wink fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"><i class="fa-solid fa-gift fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="splash-screen">
+      <div class="moving-dog"><img src="images/bone.png" width="100px" alt="" /><img src="images/jumpdog.png" width="200px" alt="" /></div>
+      <div class="bone"><span>개톡</span><img src="images/bone.png" width="100px" alt="" /></div>
+    </div>
+
+    <div id="no-mobile">
+      <div class="no-mobile__bubble"><img src="images/pngwing.com.png" width="180px" alt="" /> <span>창을 줄여주세요</span></div>
+      <img src="images/lyingdog.png" width="200px" alt="" />
+    </div>
+    <script src="https://kit.fontawesome.com/75427af088.js" crossorigin="anonymous"></script>
+  </body>
+</html>
